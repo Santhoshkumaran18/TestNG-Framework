@@ -1,0 +1,16 @@
+package AnnotationTest;
+
+public class Annotationtestexer {
+	
+	void login() {
+		System.out.println("This is login");
+	}
+	
+	void search() {
+		System.out.println("This is search");
+	}
+	
+	void logout() {
+		System.out.println("This is logout");
+	}
+}

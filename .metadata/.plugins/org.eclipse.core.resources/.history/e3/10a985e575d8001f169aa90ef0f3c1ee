@@ -1,0 +1,17 @@
+package TestNGPractise;
+
+public class OpenApplication {
+	void openapp() {
+		
+		
+	}
+	
+	void login() {
+		
+	}
+	
+	void logout() {
+		
+	}
+	
+}

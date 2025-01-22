@@ -1,0 +1,7 @@
+package Testanotationbeforafter;
+
+public class c1 {
+		void abc() {
+			
+		}
+}

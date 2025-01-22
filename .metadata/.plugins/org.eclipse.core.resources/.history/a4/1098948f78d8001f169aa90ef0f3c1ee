@@ -1,0 +1,22 @@
+package TestNGPractise;
+
+import org.testng.annotations.Test;
+
+public class OrangeHrmpage {
+	@Test(priority = 1)
+	void openapp() {
+		
+	}
+	
+	void testlog() {
+		
+	}
+	
+	void testLogin() {
+		
+	}
+	
+	void testLogout() {
+		
+	}
+}

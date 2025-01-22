@@ -1,0 +1,17 @@
+package AssertionMethods;
+
+import org.testng.annotations.Test;
+
+public class AssertionsExercise {
+		@Test
+		void testTitle1() {
+			String exp_title="Santhosh";
+			String act_title="Sanjay";
+			
+			if(exp_title.equals(act_title)) {
+				System.out.println("The title are mathcing");
+			}else {
+				System.out.println("The title are not matching");
+			}
+		}
+}

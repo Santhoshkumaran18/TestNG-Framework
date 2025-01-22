@@ -1,0 +1,10 @@
+package AssertionMethods;
+
+import org.testng.annotations.Test;
+
+public interface AssertionsExercise {
+		@Test
+		void testTitle1() {
+			
+		}
+}

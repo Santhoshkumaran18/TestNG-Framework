@@ -1,0 +1,10 @@
+package DataProviderDemo;
+
+import org.testng.annotations.BeforeClass;
+
+public class ParamTest {
+	@BeforeClass
+	void setup() {
+		
+	}
+}

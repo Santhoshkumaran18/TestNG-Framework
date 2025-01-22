@@ -1,0 +1,11 @@
+package TestNGPractise;
+
+public class OrangeHrmpage {
+	void openapp() {
+		
+	}
+	
+	void testlog() {
+		
+	}
+}

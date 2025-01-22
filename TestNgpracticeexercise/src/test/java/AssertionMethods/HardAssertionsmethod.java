@@ -1,0 +1,16 @@
+package AssertionMethods;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class HardAssertionsmethod {
+	@Test
+	void test() {
+		Assert.assertEquals("xyz","xyz");
+		Assert.assertEquals(123, 123);
+		Assert.assertNotEquals(123, 122);
+		Assert.assertTrue(true);
+		Assert.assertFalse(false);
+		Assert.assertTrue(1==1);
+	}
+}

@@ -1,0 +1,8 @@
+package GroupingMethods;
+
+public class GroupingConcepts {
+	@Test
+	void loginByEmail() {
+		System.out.println("This is login by email");
+	}
+}

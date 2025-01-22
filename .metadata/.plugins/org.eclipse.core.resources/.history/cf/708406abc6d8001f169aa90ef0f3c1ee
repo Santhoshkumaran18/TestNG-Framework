@@ -1,0 +1,6 @@
+package AssertionMethods;
+
+public class SoftAssertionsConcepts {
+	@Test
+	void softas() {
+}

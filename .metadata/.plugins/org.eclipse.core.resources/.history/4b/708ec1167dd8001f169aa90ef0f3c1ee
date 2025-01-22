@@ -1,0 +1,27 @@
+package AnnotationTest;
+
+import org.testng.annotations.Test;
+
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+
+public class Annotationtestexer {
+	
+	
+	void login() {
+		System.out.println("This is login");
+	}
+	
+	@Tests
+	void search() {
+		System.out.println("This is search");
+	}
+	
+	@Test
+	void advancedsearch() {
+		System.out.println("This is advanced search");
+	}
+	
+	void logout() {
+		System.out.println("This is logout");
+	}
+}

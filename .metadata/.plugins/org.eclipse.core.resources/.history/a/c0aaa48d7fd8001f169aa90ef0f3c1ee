@@ -1,0 +1,14 @@
+package Testanotationbeforafter;
+
+import org.testng.annotations.Test;
+
+public class c1 {
+		@Test
+		void abc() {
+			
+		}
+		
+		void bt() {
+			
+		}
+}

@@ -1,0 +1,8 @@
+package DependencyMethods;
+
+public class Dependency1 {
+	@Test
+	void openapp() {
+		
+	}
+}

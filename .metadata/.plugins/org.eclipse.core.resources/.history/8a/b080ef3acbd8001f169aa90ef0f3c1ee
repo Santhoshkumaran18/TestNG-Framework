@@ -1,0 +1,15 @@
+package GroupingMethods;
+
+import org.testng.annotations.Test;
+
+public class GroupingConcepts {
+	@Test
+	void loginByEmail() {
+		System.out.println("This is login by email");
+	}
+	
+	@Test
+	void loginFacebook() {
+		System.out.println("This is facebook");
+	}
+}

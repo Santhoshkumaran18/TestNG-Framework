@@ -1,0 +1,21 @@
+package AssertionMethods;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class SoftAssertionsConcepts {
+	@Test
+	void softas() {
+		SoftAssert sa=new SoftAssert();
+		
+		
+	}
+	
+	@Test
+	void harda() {
+		System.out.println("This is Santhosh Kumaran ");
+		Assert.assertTrue(false);
+		System.out.println("This is Sanjay Kumaran");
+	}
+}

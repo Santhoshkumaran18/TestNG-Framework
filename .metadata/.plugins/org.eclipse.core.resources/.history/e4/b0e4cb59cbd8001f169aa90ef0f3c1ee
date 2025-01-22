@@ -1,0 +1,13 @@
+package GroupingMethods;
+
+public class Signuptest {
+	@Test
+	void signup() {
+		System.out.println("This is signup by email");
+	}
+	
+	@Test
+	void signupbytwitter() {
+		System.out.println("This is signup by Twitter");
+	}
+}

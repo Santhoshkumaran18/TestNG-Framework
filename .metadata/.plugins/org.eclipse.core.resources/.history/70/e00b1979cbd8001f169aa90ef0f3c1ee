@@ -1,0 +1,13 @@
+package GroupingMethods;
+
+public class PaymentsTestMethod {
+	@Test
+	void paymentInrupeess() {
+		System.out.println("Payment in rupees");
+	}
+	
+	@Test
+	void paymentincurrency() {
+		System.out.println("This is payment in currencey");
+	}
+}

@@ -1,0 +1,41 @@
+package ListenersExercises;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+
+public class ExtentReportManger implements ITestListener{
+	public ExtentSparkReporter extentsparkreport;
+	public ExtentReports extentreport;
+	public ExtentTest extentTest;
+	@Override
+	public void onStart(ITestContext context) {
+		extentsparkreport=new ExtentSparkReporter(System.getProperty("user.dir") +
+				"/reports/MyReports.html");
+		
+		extentsparkreport.config().setDocumentTitle("Automation Report"); //Title of report
+		extentsparkreport.config().setReportName("Functional Testing");//Name of the report
+		extentsparkreport.config().setTheme(Theme.STANDARD);
+		
+		extentreport=new ExtentReports();
+		extentreport.attachReporter(extentsparkreport);
+		
+		extentreport.setSystemInfo("ComputerName","localhost");
+		extentreport.setSystemInfo("TesterName", "Santhosh");
+		
+		
+	}
+	@Override
+	public void onTestStart(ITestResult result) {
+		extentTest=
+	}
+	
+	
+	
+	
+}

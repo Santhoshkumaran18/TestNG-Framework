@@ -1,0 +1,21 @@
+package TestNGPractise;
+
+import org.testng.annotations.Test;
+
+public class OpenApplication {
+	@Test
+	void openapp() {
+		System.out.println("This is open application");
+		
+	}
+	@Test
+	void login() {
+		System.out.println("This is login application");
+	}
+	
+	@Test
+	void logout() {
+		System.out.println("This is logout application");
+	}
+	
+}

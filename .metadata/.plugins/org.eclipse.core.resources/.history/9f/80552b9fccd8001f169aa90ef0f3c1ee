@@ -1,0 +1,15 @@
+package GroupingMethods;
+
+import org.testng.annotations.Test;
+
+public class PaymentsTestMethod {
+	@Test
+	void paymentInrupeess() {
+		System.out.println("Payment in rupees");
+	}
+	
+	@Test (groups = {"Sanity","Regression"})
+	void paymentincurrency() {
+		System.out.println("This is payment in currencey");
+	}
+}

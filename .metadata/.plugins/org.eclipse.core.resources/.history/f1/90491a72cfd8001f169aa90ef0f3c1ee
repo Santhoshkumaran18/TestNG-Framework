@@ -1,0 +1,17 @@
+package DataProviderDemo;
+
+import org.testng.annotations.Test;
+
+public class DataProviderExercises {
+	@Test
+	void testLogin() {
+		
+	}
+	
+	@Test
+	void teardown() {
+		
+	}
+	
+	
+}
