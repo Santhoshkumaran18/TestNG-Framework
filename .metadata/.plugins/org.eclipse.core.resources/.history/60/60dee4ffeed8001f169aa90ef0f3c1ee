@@ -1,0 +1,12 @@
+package ExcelIntegration;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+public class ExcelDataDriven {
+	public static void main(String[] args) {
+		File file=new File(System.getProperty("C:\\Users\\S Santhosh Kumaran\\ApachePoitesting.xlsx");
+		FileInputStream fis=new FileInputStream(file);
+		
+	}
+}

@@ -1,0 +1,40 @@
+package ExcelIntegration;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelDataDriven {
+	public static void main(String[] args) throws IOException {
+		File file=new File("C:\\Users\\S Santhosh Kumaran\\ApachePoitesting.xlsx");
+		FileInputStream fis=new FileInputStream(file);
+		XSSFWorkbook workbook=new XSSFWorkbook(fis);
+		
+		XSSFSheet sheet=workbook.getSheet("Santhosh");
+		
+		int totalrows=sheet.getLastRowNum();
+		int cells=sheet.getRow(1).getLastCellNum();
+		
+		System.out.println("Number of rows:" + totalrows);
+		System.out.println("Number of columns: " + cells);
+		
+		for(int r=0;r<=totalrows;r++) {
+			XSSFRow rows=sheet.getRow(r);
+			for(int c=0;c<cells;c++) {
+				XSSFCell cell=rows.getCell(c);
+				switch (cell.getCellType()) {
+				case STRING:System.out.print(cell.getStringCellValue() + "\t");break;
+				case NUMERIC:System.out.println(cell.getNumericCellValue() + "\t");break;
+				case BOOLEAN:System.out.println(cell.getBooleanCellValue()+ "\t");break;
+				}
+				System.out.println();
+			}
+		}
+	}
+}

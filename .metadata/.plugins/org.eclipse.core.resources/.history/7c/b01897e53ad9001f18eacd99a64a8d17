@@ -1,0 +1,10 @@
+package ExcelIntegration;
+
+import java.io.File;
+
+public class ExcelDataDrivenWritingintoExcel {
+	public static void main(String[] args) {
+		File file=new File(System.getProperty("user.dir")+ "/testdata/test.xlsx");
+		
+	}
+}

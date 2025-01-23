@@ -60,7 +60,7 @@ public WebDriver driver;
 	
 	
 	
-	@AfterClass
+	@AfterClass()
 	void tearDown() {
 		driver.quit();
 	}
