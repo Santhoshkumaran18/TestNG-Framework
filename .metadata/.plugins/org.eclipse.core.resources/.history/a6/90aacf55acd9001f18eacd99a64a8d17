@@ -1,0 +1,11 @@
+package PageObjectModel;
+
+import org.testng.annotations.BeforeClass;
+
+public class TestMethod {
+	
+	@BeforeClass
+	void setup() {
+		
+	}
+}

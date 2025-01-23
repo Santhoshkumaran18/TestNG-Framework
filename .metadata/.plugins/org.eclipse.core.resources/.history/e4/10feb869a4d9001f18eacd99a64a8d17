@@ -1,0 +1,11 @@
+package ExcelIntegration;
+
+import java.util.Properties;
+
+public class Readingpropertiesfile {
+	public static void main(String[] args) {
+		File file=new File(System.getProperty("user.dir")+ /config.properties);
+		Properties prop=new Properties();
+		prop.load(null);
+	}
+}

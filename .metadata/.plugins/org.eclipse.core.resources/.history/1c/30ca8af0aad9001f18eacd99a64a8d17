@@ -1,0 +1,13 @@
+package PageObjectModel;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginTests {
+	public WebDriver driver;
+	public LoginTests(WebDriver driver) {
+		this.driver=driver;
+	}
+	
+	By username=By.xpath("//input[@name='username']");
+}

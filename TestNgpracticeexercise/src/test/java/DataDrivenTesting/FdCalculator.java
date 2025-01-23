@@ -63,7 +63,7 @@ public class FdCalculator {
 				ExcelUtilities.setCellData(xlfile, "Sheet1", r, 7, "Passed");
 				ExcelUtilities.fillGreenColour(xlfile, "Sheet1", r, 7);
 			} else {
-				System.out.println("Test Passed");
+				System.out.println("Test Failed");
 				ExcelUtilities.setCellData(xlfile, "Sheet1", r, 7, "Failed");
 				ExcelUtilities.fillRedColour(xlfile, "Sheet1", r, 7);
 			}

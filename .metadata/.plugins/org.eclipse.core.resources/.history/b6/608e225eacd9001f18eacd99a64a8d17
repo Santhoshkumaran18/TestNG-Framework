@@ -1,0 +1,24 @@
+package PageObjectModel;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+public class TestMethod {
+	
+	@BeforeClass
+	void setup() {
+		
+	}
+	
+	@Test
+	void Test() {
+		
+		
+	}
+	
+	@AfterClass
+	void tearDown() {
+		
+	}
+}
+

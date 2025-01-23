@@ -1,0 +1,7 @@
+package ExcelIntegration;
+
+public class Readingpropertiesfile {
+	public static void main(String[] args) {
+		
+	}
+}
